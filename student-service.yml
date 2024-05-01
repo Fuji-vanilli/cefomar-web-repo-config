@@ -5,7 +5,8 @@ spring:
   cloud:
     config:
       server:
-        git: https://github.com/Fuji-vanilli/cefomar-web-repo-config.git
+        git:
+          uri: https://github.com/Fuji-vanilli/cefomar-web-repo-config.git
 
   datasource:
     url: jdbc:mysql://localhost:3306/student-db
