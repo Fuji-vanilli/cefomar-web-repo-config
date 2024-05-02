@@ -30,5 +30,5 @@ jwt:
   auth:
     convert:
       resourceId: cefomar-client
-      principalAttribute: preferred_name
+      principalAttribute: preferred_username
 
