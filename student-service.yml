@@ -32,3 +32,8 @@ jwt:
       resourceId: cefomar-client
       principalAttribute: preferred_username
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
