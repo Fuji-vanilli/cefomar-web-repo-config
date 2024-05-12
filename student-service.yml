@@ -19,7 +19,7 @@ spring:
       resourceServer:
         jwt:
           issuer-uri: ${KEYCLOAK_ISSUER_URI:http://localhost:8080/realms/cefomar-digital}
-          jwk-set-url: ${spring.security.oauth2.resourceServer.jwt.issuer-uri}/protocol/openid-connect/certs
+          jwk-set-url: ${spring.security.oauth2.resourceServer.jwt.issuer-uri}/protocol/openid-connect/certs}
 
 jwt:
   auth:
